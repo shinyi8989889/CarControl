@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id = "@+id/bt_search"
+          android:title="Search"
+          app:showAsAction="ifRoom"/>
+
+    <item android:id = "@+id/bt_update"
+          android:title="Update"
+          app:showAsAction="ifRoom" /> <!--有空間就show螢幕太小就不顯示-->
+
+    <item android:id = "@+id/car_buttonmode"
+          android:title="Car Button Mode"/>
+
+    <item android:id = "@+id/car_sensormode"
+        android:title="Car Sensor Mode"/>
+
+    <item android:id = "@+id/control_mode"
+        android:title="Control Mode"/>
+
+    <item android:id = "@+id/data_mode"
+        android:title="Data Mode"/>
+</menu>
